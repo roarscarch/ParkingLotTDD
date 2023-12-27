@@ -2,8 +2,8 @@ package org.example;
 
 public class ParkingAttendant {
     private String name;
-    private ParkingLot parkingLot; // For a single parking lot
-    private ParkingLotManager lotManager; // For managing multiple lots
+    private ParkingLot parkingLot; 
+    private ParkingLotManager lotManager; 
 
     public ParkingAttendant(ParkingLot parkingLot, String name) {
         this.parkingLot = parkingLot;
